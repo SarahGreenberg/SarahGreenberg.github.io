@@ -232,7 +232,7 @@ i .fa {
   background-position: center;
   height: 100vh;
   text-align: center;
-  margin-top: -130px;
+  margin-top: -180px;
   /* margin-bottom: 200px; */
   color: white;
   background-attachment: fixed;
@@ -261,9 +261,17 @@ i .fa {
 p.bio-text {
     /* margin: 100px; */
     /* max-height: 10px; */
-    max-width: 35%;
-    padding-top: 200px;
+    /* max-width: 35%; */
+    /* padding-top: 200px; */
+    margin-left: 600px;
+    margin-top: 100px;
+    font-weight: 500;
+    text-shadow: none;
+    padding-top: 300px;
+    font-size: 50px;
 }
+
+p.bio-text {}
 
 
 /************************* ABOUT *******************************/
@@ -403,7 +411,7 @@ i:hover {
 /*************************  DESIGN  ***************************/
 
 .design {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   padding-bottom: 100px;
   max-width: 100%;
 }
@@ -471,10 +479,11 @@ p.web {
   position: absolute;
   margin-left: 50px;
   color: #BFBFBF;
+  /* margin-bottom: 100px; */
 }
 
 .design-box {
-  margin: 50px 0px;
+  margin: 50px 0px 80px 0px;
 }
 
 .design h2:before  {
@@ -503,7 +512,7 @@ p.web {
 /************************  GALLERY  *******************************/
 
 section .no-padding {
-  margin: 10px
+  /* margin: 10px */
 }
 
 .one {
@@ -513,7 +522,7 @@ section .no-padding {
 .gallery {
   /*margin-top: 100px;*/
   background-attachment: fixed;
-  margin: 20px 20px;
+  /* margin: 20px 20px; */
   padding-top: 10px;
 }
 
@@ -564,16 +573,20 @@ section .no-padding {
 
 p.photo {
   text-align: center;
-  font-size: 150px;
+  font-size: 90px;
   font-weight: 800;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   color: #BFBFBF;
+  text-transform: uppercase;
+  margin-top: -128px;
+  z-index: -1;
+  margin-bottom: -100px;
 }
 
 /************************  CONTACT  ******************************/
 
 .contact {
-  padding:25px;
+  padding: 15px;
   background-color: #182B2B;
   text-align: center;
   color: white;
@@ -581,7 +594,7 @@ p.photo {
 
 .contact p {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 30px;
 }
 
@@ -596,7 +609,7 @@ p.photo {
 
 .website-footer a i {
   background-color: white;
-  font-size: 24px;
+  /* font-size: 24px; */
   padding: 6px 7px;
   /* margin: 0px 0px 0px 2px; */
   border-radius: 100%;
@@ -614,8 +627,9 @@ p.photo {
 .website-footer {
     /* background-color: white; */
     /* font-size: 20px; */
-    padding: 4px 5px;
+    padding: 0px 5px 4px 5px;
     /* margin: 10px 2px 0px 2px; */
+    margin-top: -40px;
     /* border-radius: 100%; */
     color: #111717;
     /* text-align: center; */
@@ -624,4 +638,6 @@ p.photo {
 }
 
 a.contact-me {
-    border: 3px solid white;
+    border: 1px solid white;
+/**/
+    

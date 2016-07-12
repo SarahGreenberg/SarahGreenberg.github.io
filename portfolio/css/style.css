@@ -290,7 +290,7 @@ section.cover {
   text-align: left;
   padding: 10px;
   height: auto;
-  /* margin-top: 10px; */
+  margin-left: 16px;
 }
 
 .fa {
@@ -318,7 +318,7 @@ ul.topnav li.right a {
     text-decoration: none;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 70%;
+    font-size: 79%;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #dcd7d7;}
@@ -393,6 +393,7 @@ h3 {
   margin-top: -100px;
 }
 
+li.right.margin {padding-right: 15px;}
 
 /**************************  Modal  *********************************/
 

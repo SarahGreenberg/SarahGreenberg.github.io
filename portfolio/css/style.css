@@ -33,12 +33,14 @@ your font  style goes here
 
 @media screen and (max-width: 650px) {
  font-size: 
-
+ li.right {
+  color:blue;
+ }
 
 }
 
 @media screen and (max-width: 480px) {
- your font  style goes here
+ 
 
 }
 
@@ -76,7 +78,7 @@ h1 {
 }
 h2 {
   text-shadow: 0 1px rgba(179, 175, 175, 0.48);
-  font-size: 10vw;
+  font-size: 5vw;
   padding: 1px 1px 0px 1px;
   margin-top: 100px;
   /*  -webkit-text-stroke: 1px white;*/
@@ -87,7 +89,6 @@ h2 {
   line-height: 40px;
   letter-spacing: 20px;
   text-align: left;
-  margin-left: 90px;
 }
 
 p {
@@ -327,11 +328,18 @@ ul.topnav li a.active {background-color: rgba(0, 0, 0, 0);}
 ul.topnav li.right {float: right;margin-right: 15px;}
 
 @media screen and (max-width: 600px){
+    ul.topnav {float: none;margin-top:0px;overflow:visible;}
+
     ul.topnav li.right,
-    ul.topnav li {float: none;}
+    ul.topnav li {float: none; margin: -30px}
+
+    .active img {margin-top:50px; margin-bottom:10px}
 
       #button {
     display:none;
+
+    #custom-nav {display:none;}
+    
   }
 }
 
@@ -368,7 +376,7 @@ h3 {
   background-image: url(../image/white.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   height: 100vh;
   text-align: center;
   /* margin-top: 100px; */
@@ -585,16 +593,16 @@ element.style {
 }
 
 .bio-title {
-  font-size: 10vh;
+  font-size: 5vw;
   padding-bottom: 18px;
   margin-top: -28px;
-  letter-spacing: 7px;
+  letter-spacing: 20px;
 }
 
 .phone-photo {
   width: 450px;
   z-index: 100;
-  margin-top: 600px;
+  margin-top: 800px;
   overflow: visible;
 }
 

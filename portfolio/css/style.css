@@ -78,7 +78,7 @@ h1 {
 }
 h2 {
   text-shadow: 0 1px rgba(179, 175, 175, 0.48);
-  font-size: 5vw;
+  font-size: 33px;
   padding: 1px 1px 0px 1px;
   margin-top: 100px;
   /*  -webkit-text-stroke: 1px white;*/
@@ -89,6 +89,7 @@ h2 {
   line-height: 40px;
   letter-spacing: 20px;
   text-align: left;
+  margin-left: 100px;
 }
 
 p {
@@ -103,7 +104,7 @@ p {
 nav {
   position: absolute;
   left: 46.5%;
-  top: 20%;
+  margin-top: 154px;
   width: 7rem;
   height: 7rem;
   z-index: 100;
@@ -239,15 +240,15 @@ nav.clicked a:nth-child(6) {
 }
 
 i.fa.fa-arrow-up {
-    font-size: 6vh;
+    font-size: 44px;
 }
 
 i.fa.fa-linkedin.size {
-    font-size: 6vh;
+    font-size: 44px;
 }
 
 i.fa.fa-github.size {
-    font-size: 6vh;
+    font-size: 44px;
 }
 
 i.fa.fa-flickr.size {
@@ -258,18 +259,18 @@ i.fa.fa-flickr.size {
     i.fa.fa-linkedin.size {     font-size: 6vh; }
     i.fa.fa-github.size {     font-size: 6vh; }
     font-size: 6;
-    font-size: 6vh;
+    font-size: 44px;
 }
 
 i.fa.fa-envelope.size {
-    font-size: 6vh;
+    font-size: 44px;
 }
 
 
 /*************************  NAV BAR  *********************************/
 
 section.cover {
-    height: 702px;
+    max-height: 100%;
 }
 
 .portfolio {
@@ -333,7 +334,7 @@ ul.topnav li.right {float: right;margin-right: 15px;}
     ul.topnav li.right,
     ul.topnav li {float: none; margin: -30px}
 
-    .active img {margin-top:50px; margin-bottom:10px}
+    .active img {margin-top:50px;margin-bottom:10px;margin-left: 0px;}
 
       #button {
     display:none;
@@ -382,7 +383,7 @@ h3 {
   /* margin-top: 100px; */
   color: white;
   background-attachment: fixed;
-  z-index: -10;
+  z-index: 100;
 }
 
 .hidden {
@@ -596,7 +597,7 @@ element.style {
 }
 
 .bio-title {
-  font-size: 5vw;
+  font-size: 33px;
   padding-bottom: 18px;
   margin-top: -28px;
   letter-spacing: 20px;
@@ -614,7 +615,7 @@ element.style {
   font-weight: 300;
   padding-top: 22px;
   color: #555b6e;
-  font-size: 2vh;
+  font-size: 12px;
   font-family: "raleway";
 }
 
@@ -637,8 +638,8 @@ element.style {
 }
 
 .contact-title {
-  font-size: 4.5vh;
-  line-height: 34px;
+  font-size: 49px;
+  line-height: 56px;
   text-transform: uppercase;
   font-weight: 800;
   text-align: -webkit-center;
@@ -674,7 +675,7 @@ element.style {
 
 
 .footer-built {
-  font-size: 1.5vh;
+  font-size: 9px;
   text-align: left;
   color: #ffffff;
   padding-top: 11vh;
@@ -685,7 +686,7 @@ p.footer-built {}
 p.footer-built {}
 
 .footer-copywrite {
-  font-size: 1.8vh;
+  font-size: 14px;
   text-align: left;
   color: #ffffff;
 }
@@ -734,7 +735,7 @@ p.footer-built {}
   padding-top: 2vh;
 } 
 
-.icon-div {font-size: 4px;display: -webkit-inline-box;background-color: white;border-radius: 50%;width: 40px;padding: 9px;margin: 5px;}
+.icon-div {font-size: 5px;display: -webkit-inline-box;background-color: white;border-radius: 50%;padding: 9px;margin: 5px;}
 
 i.fa.fa-envelope.footer {
     font-size: 3vh;

@@ -49,13 +49,15 @@ your font  style goes here
     src: url(../font/pier.otf) format("truetype");
 }
 
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: white;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 
@@ -78,12 +80,12 @@ h1 {
 }
 h2 {
   text-shadow: 0 1px rgba(179, 175, 175, 0.48);
-  font-size: 33px;
+  font-size: 55px;
   padding: 1px 1px 0px 1px;
   margin-top: 100px;
   /*  -webkit-text-stroke: 1px white;*/
   border-radius: 5px;
-  font-family: 'pier';
+  /* font-family: 'pier'; */
   color: #89b0ae;
   font-weight: 800;
   line-height: 40px;
@@ -95,6 +97,7 @@ h2 {
 p {
   font-size: 2vmin;
   font-family: 'pier';
+
 }
 
 
@@ -279,7 +282,6 @@ section.cover {
 }
 
 .nav {
-  color: rgb(195, 176, 165);
   text-decoration: none;
   position: fixed;
   z-index: 500;
@@ -289,9 +291,9 @@ section.cover {
 .nav img {
   max-width: 80px;
   text-align: left;
-  padding: 10px;
+  padding: 13px;
   height: auto;
-  margin-left: 16px;
+  margin-left: 45px;
 }
 
 .fa {
@@ -312,14 +314,14 @@ ul.topnav {
 ul.topnav li {float: left;}
 
 ul.topnav li.right a {
-    display: block;
-    color: black;
+    display: inline-block;
+    color: #555B6E;
     text-align: center;
     padding: 30px 16px;
     text-decoration: none;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 79%;
+    font-size: 77%;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #dcd7d7;}
@@ -332,9 +334,9 @@ ul.topnav li.right {float: right;margin-right: 15px;}
     ul.topnav {float: none;margin-top:0px;overflow:visible;}
 
     ul.topnav li.right,
-    ul.topnav li {float: none; margin: -30px}
+    ul.topnav li {margin: -6px;}
 
-    .active img {margin-top:50px;margin-bottom:10px;margin-left: 0px;}
+    .active img {margin-top:50px;margin-bottom:10px;margin-left: 0px;display: none;}
 
       #button {
     display:none;
@@ -353,11 +355,11 @@ h3 {
 .h4-left {
   font-size: 1.5em;
   font-weight: 100;
- /* text-transform: uppercase;*/
+  /* text-transform: uppercase;*/
   text-align: right;
   margin-right: 81px;
   letter-spacing: 5px;
-  color: rgba(51, 51, 51, 0.18);
+  color: rgba(51, 51, 51, 0.28);
   /*font-family: 'king-basil-lite';*/
 }
 
@@ -366,8 +368,8 @@ h3 {
   text-align: left;
   margin-left: 108px;
   font-weight: 100;
-/*  text-transform: uppercase;*/
-  color: rgba(51, 51, 51, 0.18);
+  /*  text-transform: uppercase;*/
+  color: rgba(51, 51, 51, 0.28);
   letter-spacing: 5px;
   /*font-family: 'king-basil-lite';*/
 }
@@ -395,6 +397,11 @@ h3 {
 }
 
 li.right.margin {padding-right: 15px;}
+
+.nav-padding {
+  margin-right: 30px;
+}
+
 
 /**************************  Modal  *********************************/
 
@@ -597,7 +604,7 @@ element.style {
 }
 
 .bio-title {
-  font-size: 33px;
+  font-size: 55px;
   padding-bottom: 18px;
   margin-top: -28px;
   letter-spacing: 20px;
@@ -614,9 +621,10 @@ element.style {
   line-height: 1.6;
   font-weight: 300;
   padding-top: 22px;
-  color: #555b6e;
-  font-size: 12px;
-  font-family: "raleway";
+  color: #555B6E;
+  font-size: 13px;
+  font-family: "Cabin", sans-serif;
+  padding: 12px;
 }
 
 .skill-box {
@@ -677,8 +685,8 @@ element.style {
 .footer-built {
   font-size: 9px;
   text-align: left;
-  color: #ffffff;
-  padding-top: 11vh;
+  color: #555B6E;
+  padding-top: 1vh;
 }
 
 p.footer-built {}
@@ -688,18 +696,18 @@ p.footer-built {}
 .footer-copywrite {
   font-size: 14px;
   text-align: left;
-  color: #ffffff;
+  color: #555B6E;
 }
 
 .logo-footer {
-  max-width: 15%;
+  max-width: 61px;
   margin: auto;
   display: -webkit-box;
   margin-top: 6vh;
 }
 
 .footer-icons {
-  padding-top: 11vh;
+  padding-top: 2vh;
   padding-right: 4vh;
 }
 
@@ -707,6 +715,7 @@ p.footer-built {}
 
 .row.footer {
     padding: 0;
+    margin-bottom: 40px;
 }
 
 .container.footer {
@@ -743,7 +752,7 @@ i.fa.fa-envelope.footer {
 }
 
 a.footer {
-    color: #555b6e;
+    color: #555B6E;
     text-align: center;
 }
 i.fa.fa-linkedin.footer {

@@ -24,7 +24,7 @@ html {
  */
 
 /*
- * A container holds all elements and controls the pageÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s maximum width.
+ * A container holds all elements and controls the pageÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢s maximum width.
  * Using a container will make designing for responsive easier!
  */
 .container {
@@ -140,6 +140,16 @@ html {
   #text-title {
     display: none;
   }
+
+  .column {
+    margin: 0px auto;
+  }
+
+  ul.topnav li.right a {
+    background-color: #ededef;
+    margin: auto 0px;
+  }
+
 }
 
 @media screen and (max-width: 769px){

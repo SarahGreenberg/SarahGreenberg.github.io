@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Sarah Greenberg: Sleep Aid Fan </title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300|Merriweather' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic,400italic,900,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+</head>
+<body>
+
+	<header class="cd-header" data-type="slider-item">
+    <section>
+      <img class="cover" src="img/SleepAidFan_CaseStudy.png">
+      </section>
+    </header>
+
+<!-- nav -->
+
+ <input type="checkbox" id="menu" name="menu" class="menu-checkbox">
+  <div class="menu">
+    <label class="menu-toggle" for="menu"><span>Toggle</span></label>
+    <ul>
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+      <li class="right"><a id="myBtn">Resume</a></li>
+      <li>
+        <label for="menu-5"><a data-scroll href="#portfolio">Portfolio</a></label>
+        <input type="checkbox" id="menu-5" name="menu-5" class="menu-checkbox">
+        <div class="menu">
+          <label class="menu-toggle" for="menu-5"><span>Toggle</span></label>
+          <ul>
+            <li>
+              <a data-scroll href="#" style="color:#d0d0d0;">Sleep Aid Fan</a>
+            </li>
+            <li>
+              <a data-scroll href="../">Resilient Coders</a>
+            </li>
+            <li>
+              <a data-scroll href="https://www.indiegogo.com/projects/visit-org-meet-the-world-in-person">Visit.org</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a data-scroll href="../index.html#bio">About</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">×</span>
+        <div class="resume"><img src="img/SarahGreenbergResume.jpg"></div>
+      </div>
+
+    </div>
+
+
+<!-- The content of your page would go here. -->
+
+		<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3><img class="logo-footer" src="img/logo-coral.png"></h3>
+
+
+
+				<p class="footer-company-name">Sarah Greenberg &copy; 2016</p>
+
+				<div class="footer-icons">
+
+					<a href="mailto:sarahegreenberg1@gmail.com?Subject=Hello%20again" target="_top"><i class="fa fa-envelope size" aria-hidden="true"></i></a>
+					<a href="https://www.linkedin.com/in/sarahegreenberg" target="_blank"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/SarahGreenberg" target="_blank"><i class="fa fa-github"></i></a>
+					<a href="https://www.flickr.com/photos/greenyqt/" target="_blank"><i class="fa fa-flickr size" aria-hidden="true"></i></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Let's Chat!</p>
+
+				<form class="form" id="form1" action="MAILTO:sarahegreenberg1@gmail.com" method="post">
+
+					<input type="text" name="email" placeholder="Email" />
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>Send</button>
+
+				</form>
+
+			</div>
+
+		</footer>
+
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.0.0/js/smooth-scroll.js"></script>
+  <script>
+    smoothScroll.init();
+</script>
+
+</body>
+</html>

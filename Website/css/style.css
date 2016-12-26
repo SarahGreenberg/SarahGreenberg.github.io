@@ -20,13 +20,6 @@ html {
   }
 }
 
-@media screen and (max-width: 842px){
-  .title-text {
-    display: block;
-    padding: 21px;
-  }
-}
-
 
 @font-face {
     font-family: 'CODE';
@@ -519,8 +512,8 @@ p {
 
 nav {
   position: absolute;
-  left: 45%;
-  top: 17%;
+  left: 41.5vw;
+  top: -29%;
   width: 11rem;
   height: 11rem;
   z-index: initial;
@@ -533,6 +526,7 @@ nav {
   text-align: center;
   margin: 0px auto;
   display: inline-block;
+  /* margin: 21px; */
 }
 nav:hover, nav:focus {
   background: #797979;
@@ -661,7 +655,7 @@ nav.clicked a:nth-child(7) {
 
 img.lgoo {
     width: 98px;
-    margin: 6px;
+    /* margin: 6px; */
     position: relative;
 }
 
@@ -744,7 +738,7 @@ a.visit-link {
 }
 
 .center h1 {display: block; }
-.center img {margin: 0 40px;vertical-align: middle;width: 11rem;}
+.center img {/* margin: 0 0px; */vertical-align: middle;width: 7rem;/* padding: 2px; */}
 
 
 
@@ -1003,7 +997,20 @@ h1.title {
 }
 
 span.title-text {
-    font-size: 2.4vw;
+    font-size: 24px;
     letter-spacing: 6px;
     color: #b9b9b9;
+    padding: 7rem;
 }
+
+@media screen and (max-width: 1032px){
+  .title-text {
+    display: block;
+    padding: 21px;
+  }
+  nav {
+    top: 34%;
+  }
+}
+
+

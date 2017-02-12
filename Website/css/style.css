@@ -667,6 +667,10 @@ img.icon-nav {
 
 a {}
 
+img.lgoo.center {
+    width: 11rem;
+}
+
 img.icon-nav.linkedin {
     transform: rotate(-55deg);
     margin-top: 6px;
